@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>생태야장 | 생태 현장조사 야장 앱</title>
+  <meta name="description" content="산과 하천에서 경로·지점·식생을 한 번에 남기고 보고서 자료로 바로 내보내는 안드로이드 앱. 무료, 광고·인앱 결제 없음, 회원가입 없음." />
+  <meta name="theme-color" content="#0f3b26" />
+  <link rel="canonical" href="https://yajang.biogrideia.com/" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:site_name" content="생태야장" />
+  <meta property="og:title" content="종이 야장 대신, 생태야장" />
+  <meta property="og:description" content="산과 하천에서 경로·지점·식생을 한 번에 남기고 보고서 자료로 바로 내보내는 안드로이드 앱" />
+  <meta property="og:url" content="https://yajang.biogrideia.com/" />
+  <meta property="og:image" content="https://yajang.biogrideia.com/img/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" />
+  <link rel="stylesheet" href="css/style.css?v=1" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "생태야장",
+    "operatingSystem": "Android",
+    "applicationCategory": "UtilitiesApplication",
+    "description": "산과 하천에서 경로·지점·식생을 한 번에 남기고 보고서 자료로 바로 내보내는 안드로이드 앱",
+    "url": "https://yajang.biogrideia.com/",
+    "downloadUrl": "https://play.google.com/store/apps/details?id=com.biogrideia.field",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "KRW" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">본문 바로가기</a>
+
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="brand" href="#top" aria-label="생태야장 처음으로">
+        <img src="img/icon-192.png" width="32" height="32" alt="" />
+        <span>생태야장</span>
+      </a>
+      <nav class="nav" aria-label="페이지 안 이동">
+        <a href="#features">주요 기능</a>
+        <a href="#screens">화면</a>
+        <a href="#vegetation">현존식생도</a>
+        <a href="#howto">사용 방법</a>
+      </nav>
+      <a class="btn btn-sm btn-dark" href="#install">설치</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 첫 화면 -->
+    <section class="hero" id="top">
+      <div class="wrap hero-in">
+        <div class="hero-text">
+          <img class="hero-icon" src="img/icon-192.png" width="72" height="72" alt="생태야장 앱 아이콘" />
+          <p class="eyebrow eyebrow-light">생태 현장조사 야장 앱</p>
+          <h1>종이 야장 대신,<br /><em>생태야장</em></h1>
+          <p class="lead">산과 하천에서 경로·지점·식생을 한 번에 남기고<br class="br-wide" /> 보고서 자료로 바로 내보내는 안드로이드 앱</p>
+          <div class="cta">
+            <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.biogrideia.field" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 3.5v17l14-8.5z" fill="currentColor"/></svg>
+              Play 스토어에서 설치
+            </a>
+            <a class="btn btn-ghost" href="#screens">화면 보기</a>
+          </div>
+          <ul class="facts">
+            <li>무료</li><li>광고·인앱 결제 없음</li><li>회원가입·로그인 없음</li>
+          </ul>
+        </div>
+        <div class="hero-phones" aria-hidden="true">
+          <div class="phone phone-back"><img src="img/screen-landcover.webp" width="720" height="1436" alt="" /></div>
+          <div class="phone phone-front"><img src="img/screen-map.webp" width="720" height="1436" alt="" fetchpriority="high" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 왜 만들었나 -->
+    <section class="sec" id="why">
+      <div class="wrap">
+        <p class="eyebrow">왜 만들었나</p>
+        <h2>조사보다 정리가 더 오래 걸리는 날</h2>
+        <div class="grid grid-2">
+          <article class="card"><h3>종이 야장</h3><p>비 오면 번지고 겨울엔 손이 곱고, 돌아와서는 엑셀로 다시 옮겨 적습니다</p></article>
+          <article class="card"><h3>좌표와 사진</h3><p>지점 좌표는 따로 정리하고, 사진은 어디서 찍었는지 한참 들여다봅니다</p></article>
+          <article class="card"><h3>종명 확인</h3><p>학명과 법정보호종 여부를 목록에서 하나하나 대조합니다</p></article>
+          <article class="card"><h3>현존식생도</h3><p>도로·논밭 경계까지 손으로 따라 긋고, 면적은 GIS에서 따로 냅니다</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 세 가지 원칙 -->
+    <section class="sec sec-tight" id="principles">
+      <div class="wrap">
+        <p class="eyebrow">세 가지 원칙</p>
+        <h2>현장에서 한 번 적으면 끝나도록</h2>
+        <div class="grid grid-3">
+          <article class="card card-top">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18h10a4 4 0 0 0 .6-7.96A6 6 0 0 0 6.1 9.1 4.5 4.5 0 0 0 7 18z"/></svg>
+            <h3>인터넷 없이</h3>
+            <p>산속·하천변에서 그대로 씁니다. 지도는 미리 받아 두고 기록은 폰에 쌓입니다. 회원가입도 로그인도 없습니다.</p>
+          </article>
+          <article class="card card-top">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+            <h3>한 번만 적기</h3>
+            <p>종명은 고르기만 하고, 좌표·사진 위치·이동경로는 저절로 붙습니다.</p>
+          </article>
+          <article class="card card-top">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a1 1 0 0 1 1 1v15H7a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1zM5 18a2 2 0 0 1 2-2h11"/></svg>
+            <h3>보고서 모양 그대로</h3>
+            <p>엑셀·GPX·KML·GeoJSON, 그리고 현존식생도 면적표와 도면 그림으로 바로 나옵니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 주요 기능 -->
+    <section class="sec sec-alt" id="features">
+      <div class="wrap">
+        <p class="eyebrow">주요 기능</p>
+        <h2>현장 기록부터 보고서 자료까지</h2>
+        <div class="grid grid-3 features">
+          <article class="feat">
+            <span class="tag">현장 기록</span>
+            <h3>지도 한 장에 경로·지점·조사범위</h3>
+            <p>조사를 시작하면 걸은 길이 선으로 남고, 확인한 지점이 종명과 함께 지도에 찍힙니다.</p>
+          </article>
+          <article class="feat">
+            <span class="tag">현장 기록</span>
+            <h3>종명은 외우지 말고 고르기만</h3>
+            <p>국가생물종목록 28,000여 종이 앱 안에 있어 초성만 쳐도 찾습니다. 법정보호종·생태계교란종 표시가 저절로 붙습니다.</p>
+          </article>
+          <article class="feat">
+            <span class="tag">현장 기록</span>
+            <h3>화면을 꺼도 경로는 이어집니다</h3>
+            <p>정밀·일반·절전 세 가지 조사 모드. 종일·장거리 조사는 절전으로 배터리를 아낍니다.</p>
+          </article>
+          <article class="feat">
+            <span class="tag">참고 지도</span>
+            <h3>생태자연도·임상도를 현장 지도 위에</h3>
+            <p>사업지구 경계(SHP·KML·GeoJSON)와 조사범위 100·300·500m에 겹쳐 봅니다. 한 번 받으면 신호 없는 산에서도 보입니다.</p>
+          </article>
+          <article class="feat">
+            <span class="tag">현존식생도</span>
+            <h3>긋고, 이름 붙이면 면적과 도면은 앱이</h3>
+            <p>토지피복지도 밑그림 위에 군락 경계만 긋습니다. 면적표·엑셀·도면 그림이 나옵니다.</p>
+          </article>
+          <article class="feat">
+            <span class="tag">내보내기</span>
+            <h3>조사가 끝나면 바로 파일로</h3>
+            <p>XLSX·GPX·KML·GeoJSON·PNG·사진 원본 ZIP. GeoJSON은 QGIS에 그대로 올립니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 화면 예시 -->
+    <section class="sec" id="screens">
+      <div class="wrap">
+        <p class="eyebrow">화면 예시</p>
+        <h2>실제 앱 화면</h2>
+        <div class="viewer" data-viewer>
+          <div class="tabs" role="tablist" aria-label="앱 화면 고르기">
+            <button role="tab" id="t-map" aria-controls="viewer-panel" aria-selected="true" data-shot="map">조사 지도</button>
+            <button role="tab" id="t-point" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="point">지점 기록</button>
+            <button role="tab" id="t-mode" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="mode">조사 모드</button>
+            <button role="tab" id="t-ecozone" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="ecozone">생태자연도</button>
+            <button role="tab" id="t-forest" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="forest">임상도</button>
+            <button role="tab" id="t-landcover" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="landcover">식생도 밑그림</button>
+            <button role="tab" id="t-area" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="area">면적표</button>
+            <button role="tab" id="t-export" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="export">내보내기</button>
+            <button role="tab" id="t-grid" aria-controls="viewer-panel" aria-selected="false" tabindex="-1" data-shot="grid">함께 보기</button>
+          </div>
+
+          <div class="viewer-body" id="viewer-panel" role="tabpanel" aria-labelledby="t-map">
+            <div class="viewer-shot">
+              <div class="phone"><img id="viewer-img" src="img/screen-map.webp" width="720" height="1436" alt="조사 지도 화면" /></div>
+              <div class="viewer-nav">
+                <button type="button" class="round" data-step="-1" aria-label="이전 화면">‹</button>
+                <span id="viewer-count" aria-live="polite">1 / 9</span>
+                <button type="button" class="round" data-step="1" aria-label="다음 화면">›</button>
+              </div>
+            </div>
+            <div class="viewer-text">
+              <!-- 화면마다 하나씩, JS가 고른 것만 보입니다 -->
+              <div class="shot" data-for="map" data-img="img/screen-map.webp" data-alt="조사 지도 화면">
+                <p class="tag">현장 기록</p>
+                <h3>지도 한 장에 경로·지점·조사범위</h3>
+                <ul class="dots">
+                  <li>조사를 시작하면 걸은 길이 선으로 남습니다</li>
+                  <li>확인한 지점이 종명과 함께 지도에 찍힙니다</li>
+                  <li>사업지구 경계(SHP·KML·GeoJSON)와 조사범위 100·300·500m</li>
+                  <li>중부원점 같은 국내 좌표계도 알아서 바꿉니다</li>
+                  <li>생태자연도·임상도를 겹쳐 봅니다</li>
+                </ul>
+              </div>
+              <div class="shot" data-for="point" data-img="img/screen-point.webp" data-alt="지점 기록 화면" hidden>
+                <p class="tag">현장 기록</p>
+                <h3>종명은 외우지 말고 고르기만</h3>
+                <ul class="dots">
+                  <li>국가생물종목록 28,000여 종이 앱 안에 — 초성만 쳐도 찾습니다</li>
+                  <li>분류군과 법정보호종·생태계교란종 표시가 저절로 붙습니다</li>
+                  <li>앱에서 찍은 사진에 촬영 좌표가 들어갑니다</li>
+                  <li>새 울음처럼 눈으로 못 본 것은 녹음으로 남깁니다</li>
+                </ul>
+              </div>
+              <div class="shot" data-for="mode" data-img="img/screen-mode.webp" data-alt="조사 모드 고르기 화면" hidden>
+                <p class="tag">현장 기록</p>
+                <h3>화면을 꺼도 경로는 이어집니다</h3>
+                <table class="tbl">
+                  <thead><tr><th>조사 모드</th><th>기록 간격</th><th>쓰는 때</th></tr></thead>
+                  <tbody>
+                    <tr><td>정밀</td><td>1초 · 2m</td><td>촘촘히 봐야 할 구간</td></tr>
+                    <tr><td>일반</td><td>2초 · 3m</td><td>보통 조사</td></tr>
+                    <tr><td>절전</td><td>5초 · 10m</td><td>종일·장거리 조사</td></tr>
+                  </tbody>
+                </table>
+                <p class="note">기록 중에는 «생태조사 경로 기록 중» 알림이 떠 있고, 위치 권한은 «앱 사용 중에만 허용»이면 됩니다.</p>
+              </div>
+              <div class="shot" data-for="ecozone" data-img="img/screen-ecozone.webp" data-alt="생태자연도를 겹친 조사 지도 화면" hidden>
+                <p class="tag">참고 지도</p>
+                <h3>생태자연도를 현장 지도 위에</h3>
+                <ul class="dots">
+                  <li>1·2등급과 별도관리지역을 사업지구 경계에서 500m까지</li>
+                  <li>진하기를 옅게 하면 항공사진과 겹쳐 봅니다</li>
+                  <li>한 번 받으면 폰에 남아 신호 없는 산에서도 보입니다</li>
+                </ul>
+              </div>
+              <div class="shot" data-for="forest" data-img="img/screen-forest.webp" data-alt="임상도를 겹친 조사 지도 화면" hidden>
+                <p class="tag">참고 지도</p>
+                <h3>임상도를 현장 지도 위에</h3>
+                <ul class="dots">
+                  <li>1:5,000 도엽을 앱 안에서 받아 임상 경계·코드를 그대로</li>
+                  <li>진하기를 옅게 하면 항공사진과 겹쳐 봅니다</li>
+                  <li>한 번 받으면 폰에 남아 신호 없는 산에서도 보입니다</li>
+                </ul>
+              </div>
+              <div class="shot" data-for="landcover" data-img="img/screen-landcover.webp" data-alt="토지피복지도 밑그림을 받은 현존식생도 그리기 화면" hidden>
+                <p class="tag">현존식생도</p>
+                <h3>밑그림은 토지피복지도에서</h3>
+                <ul class="dots">
+                  <li>환경부 토지피복지도(세분류) 최신판을 조사범위만큼 받아 옵니다</li>
+                  <li>경작지·과수원·이차초지·수역·나대지 및 시설지 — 경계와 이름까지</li>
+                  <li>산림은 활엽수림·침엽수림·혼효림으로: 그 안만 군락으로 나누면 끝</li>
+                  <li>원 도면이 1:5,000이라 경계가 1~2m 어긋날 수 있습니다</li>
+                </ul>
+              </div>
+              <div class="shot" data-for="area" data-img="img/screen-area.webp" data-alt="군락별 면적표 화면" hidden>
+                <p class="tag">현존식생도</p>
+                <h3>면적표는 보고서 모양 그대로</h3>
+                <ul class="dots">
+                  <li>군락별 면적·비율과 약어(Pd, PdQv …)</li>
+                  <li>식생보전등급 기본값을 붙이고, 눌러서 고칩니다</li>
+                  <li>사업지구·주변지역·광역범위로 나눈 구역별 면적</li>
+                  <li>이름이 둘인 면, 이름 없는 면을 지도에서 바로 찾아 줍니다</li>
+                  <li>같은 표를 엑셀로 내보냅니다</li>
+                </ul>
+              </div>
+              <div class="shot" data-for="export" data-img="img/screen-export.webp" data-alt="내보내기 화면" hidden>
+                <p class="tag">내보내기</p>
+                <h3>조사가 끝나면 바로 파일로</h3>
+                <table class="tbl">
+                  <thead><tr><th>파일</th><th>담기는 것</th></tr></thead>
+                  <tbody>
+                    <tr><td>XLSX</td><td>조사목록 · 식생 면적표</td></tr>
+                    <tr><td>GPX · KML</td><td>이동경로 · 기록 지점</td></tr>
+                    <tr><td>GeoJSON</td><td>지점 · 스케치 선 · 군락 면 · 사업지구 경계 · 조사범위 — QGIS에 그대로</td></tr>
+                    <tr><td>PNG</td><td>현존식생도 · 식생보전등급도</td></tr>
+                    <tr><td>ZIP</td><td>사진 원본</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="shot" data-for="grid" data-img="img/screen-grid-cell.webp" data-alt="다른 조사자가 확인한 곳을 250m 격자로 보여 주는 화면" hidden>
+                <p class="tag">함께 보기</p>
+                <h3>남의 기록은 격자로, 내 기록은 정확한 점으로</h3>
+                <ul class="dots">
+                  <li>다른 조사자의 보호종 기록은 250m 격자로만</li>
+                  <li>칸을 누르면 종명·건수·연월·등급(A·B·C)</li>
+                  <li>내 기록은 찍은 자리에 정확한 점과 종명으로</li>
+                  <li>내가 찍은 것은 격자에서 빼서 겹치지 않습니다</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 현존식생도 -->
+    <section class="sec sec-dark" id="vegetation">
+      <div class="wrap">
+        <p class="eyebrow eyebrow-light">현존식생도</p>
+        <h2>긋고, 이름 붙이면<br />면적과 도면은 앱이</h2>
+        <ol class="flow">
+          <li><b>밑그림</b><span>토지피복지도에서 경계와 이름 받기</span></li>
+          <li><b>긋기</b><span>산림 안 군락 경계만 손으로</span></li>
+          <li><b>이름</b><span>면 가운데를 눌러 군락명 찍기</span></li>
+          <li><b>면 만들기</b><span>닫힌 구역이 저절로 면이 됨</span></li>
+          <li class="flow-end"><b>결과</b><span>면적표 · 엑셀 · 도면 그림</span></li>
+        </ol>
+        <h3 class="sub">도면 그림까지 한 번에</h3>
+        <div class="plans">
+          <figure>
+            <img src="img/plan-vegetation.webp" width="1600" height="1131" loading="lazy" alt="앱에서 내보낸 사업지구의 현존식생도 그림. 위성사진 바탕에 군락별 색과 약어, 범례, 축척이 들어가 있다" />
+            <figcaption>현존식생도</figcaption>
+          </figure>
+          <figure>
+            <img src="img/plan-grade.webp" width="1600" height="1131" loading="lazy" alt="앱에서 내보낸 사업지구의 식생보전등급도 그림. Ⅲ·Ⅳ·Ⅴ등급 구역과 범례, 축척이 들어가 있다" />
+            <figcaption>식생보전등급도</figcaption>
+          </figure>
+        </div>
+        <p class="spec">A4 300dpi 그림 · 바탕은 흰 바탕·위성사진·일반지도 중 선택 · 길면 최대 10장으로 나누고 장마다 키맵</p>
+      </div>
+    </section>
+
+    <!-- 함께 보기 -->
+    <section class="sec" id="share">
+      <div class="wrap">
+        <p class="eyebrow">함께 보기</p>
+        <h2>처음 가는 현장이 덜 막막하도록</h2>
+        <p class="intro">조사자들이 확인한 법정보호종 자리를 250m 격자로 서로 봅니다. 들어가기 전에 어느 구간을 중점적으로 볼지 정할 수 있습니다.</p>
+        <div class="grid grid-3">
+          <article class="card card-top"><h3>다른 이용자에게 보이는 것</h3><p>250m 격자 칸 · 종명 · 확인한 연-월</p></article>
+          <article class="card card-top card-top-grey"><h3>관리자만 보는 것</h3><p>확인 지점의 정확한 좌표 — 잘못 들어온 기록을 걸러내는 데만 씁니다</p></article>
+          <article class="card card-top card-top-dark"><h3>보내지 않는 것</h3><p>사진 · 녹음 · 메모 · 이동경로 · 프로젝트명 · 발주처 · 조사자 이름</p></article>
+        </div>
+        <p class="strong-note">보호종을 기록하지 않으면 서버로 가는 것이 없습니다 — 야장 용도로만 써도 됩니다.</p>
+      </div>
+    </section>
+
+    <!-- 무엇이 달라졌나 -->
+    <section class="sec sec-alt" id="compare">
+      <div class="wrap">
+        <p class="eyebrow">무엇이 달라졌나</p>
+        <h2>손으로 하던 일이 줄었습니다</h2>
+        <div class="compare">
+          <div class="compare-row compare-head"><span>지금까지</span><span>생태야장</span></div>
+          <div class="compare-row"><span>종이 야장에 적고 엑셀로 다시 옮기기</span><span>현장에서 한 번 적으면 엑셀로</span></div>
+          <div class="compare-row"><span>지점 좌표·사진 위치 따로 정리</span><span>좌표가 기록과 사진에 저절로</span></div>
+          <div class="compare-row"><span>학명·보호종 목록 대조</span><span>종명을 고르면 보호종 표시</span></div>
+          <div class="compare-row"><span>도로·논밭 경계까지 손으로 그리기</span><span>토지피복지도 밑그림</span></div>
+          <div class="compare-row"><span>면적은 GIS에서 따로 계산</span><span>면적표·도면을 앱에서</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 사용 방법 -->
+    <section class="sec" id="howto">
+      <div class="wrap">
+        <p class="eyebrow">사용 방법</p>
+        <h2>설치부터 내보내기까지</h2>
+        <ol class="steps">
+          <li><b>설치</b><span>Play 스토어에서 «생태야장». 회원가입·로그인 없이 바로 씁니다.</span></li>
+          <li><b>사업지구 불러오기</b><span>경계를 SHP · KML · GeoJSON으로 불러오면 조사범위 100·300·500m가 함께 뜹니다.</span></li>
+          <li><b>조사 시작</b><span>걸은 길이 선으로 남습니다. 화면을 꺼도 경로는 이어집니다.</span></li>
+          <li><b>지점·사진 기록</b><span>종명을 고르면 분류군과 보호구분이 붙고, 사진에는 촬영 좌표가 들어갑니다.</span></li>
+          <li><b>종료·내보내기</b><span>엑셀 · GPX · KML · GeoJSON · 사진 원본 ZIP으로 바로 나옵니다.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 설치·문의 -->
+    <section class="sec sec-dark install" id="install">
+      <div class="wrap install-in">
+        <div class="install-text">
+          <p class="eyebrow eyebrow-light">설치하기</p>
+          <h2>조사는 현장에서,<br /><em>정리는 생태야장이.</em></h2>
+          <ul class="facts facts-list">
+            <li>안드로이드 폰에서 씁니다</li>
+            <li>무료 · 광고와 인앱 결제 없음</li>
+            <li>회원가입·로그인 없음</li>
+          </ul>
+          <div class="cta">
+            <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.biogrideia.field" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 3.5v17l14-8.5z" fill="currentColor"/></svg>
+              Play 스토어에서 설치
+            </a>
+          </div>
+          <div class="contact">
+            <p>필요한 기능이나 불편한 점을 알려 주세요. 현장에서 쓰려고 만든 앱이라 계속 쓰면서 고쳐 나갑니다.</p>
+            <a class="mail" href="mailto:cirmax82@gmail.com">cirmax82@gmail.com</a>
+          </div>
+        </div>
+        <figure class="qr">
+          <img src="img/qr-play.svg" width="180" height="180" alt="Play 스토어 생태야장 설치 주소 QR 코드" />
+          <figcaption>폰 카메라로 찍으면<br />설치 화면이 열립니다</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <span>생태야장 · biogrideia</span>
+      <a href="https://play.google.com/store/apps/details?id=com.biogrideia.field" target="_blank" rel="noopener">Google Play</a>
+    </div>
+  </footer>
+
+  <script src="js/app.js?v=1"></script>
+</body>
+</html>
